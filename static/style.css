@@ -1,0 +1,28 @@
+body {
+  background: rgb(201, 198, 198);
+  font-family: 'Open Sans', sans-serif;
+  color: #ccc;
+}
+
+#container {
+  margin: 20 auto;
+  width: 640px;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border: 1px #222 solid;
+}
+
+#header h1 { margin: 0; }
+#nav ul { margin: 0; }
+#nav li {
+  font-weight: bold;
+  float: right;
+  list-style: none;
+  margin-left: 10px;
+}
+
+#header a, #nav a { color: rgb(28, 161, 202); text-decoration: none; }
+#header a:hover, #nav a:hover { color: rgb(157, 204, 255); text-decoration: underline; }
+
+a { color: #FEF0C9; text-decoration: none; }
+a:hover { color: #FEF6E4; text-decoration: underline; }
